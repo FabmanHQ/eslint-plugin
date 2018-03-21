@@ -117,7 +117,7 @@ module.exports = {
 		}],
 		'no-use-before-define': 0,
 		// Stylistic Issues
-		'brace-style': [1, 'stroustrup', {
+		'brace-style': [1, '1tbs', {
 			'allowSingleLine': true
 		}],
 		'camelcase': [1, {

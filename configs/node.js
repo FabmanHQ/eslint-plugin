@@ -113,6 +113,7 @@ module.exports = {
 		'no-undefined': 0,
 		'no-unused-vars': [1, {
 			'argsIgnorePattern': '^__',
+			'varsIgnorePattern': '^__',
 			'args': 'all'
 		}],
 		'no-use-before-define': 0,

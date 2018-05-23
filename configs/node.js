@@ -133,7 +133,7 @@ module.exports = {
 		'eol-last': 0,
 		'func-names': 0,
 		'func-style': 0,
-		'indent': [1, 'tab', {SwitchCase: 1}],
+		'indent': [1, 'tab', {SwitchCase: 1, MemberExpression: 'off'}],
 		'key-spacing': [1, {
 			'beforeColon': false,
 			'afterColon': true

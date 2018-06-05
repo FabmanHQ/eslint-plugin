@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fabman",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Lint rules and configs for the fabman project",
   "main": "index.js",
   "scripts": {

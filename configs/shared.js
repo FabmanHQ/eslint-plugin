@@ -4,7 +4,9 @@ module.exports = {
 	rules: {
         "fabman/leftover-only": 2,
 		'no-var': 1,
-		'prefer-const': 1,
+		"prefer-const": ["warn", {
+			"destructuring": "all"
+		}],
 		'no-const-assign': 2,
 		'prefer-spread': 1,
 		'prefer-template': 0,

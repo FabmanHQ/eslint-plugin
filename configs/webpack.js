@@ -2,8 +2,11 @@
 
 module.exports = {
 	root: true,
+	extends: './configs/shared.js',
 	env: {
-		browser: true,
+        node: false,
+        browser: true,
+        commonjs: true,
 	},
 	parser: 'babel-eslint',
 	parserOptions: {
@@ -29,5 +32,4 @@ module.exports = {
 			jsx: false
 		},
 	},
-	extends: './configs/shared.js',
 };
